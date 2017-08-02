@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4C75A9CB40F3FE1AD2515F0881F53219'
+               BlueprintIdentifier = '6920AD5B94AA083DB7CF75755099DDF8'
                BlueprintName = 'FBBUserCenter'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libFBBUserCenter.a'>
