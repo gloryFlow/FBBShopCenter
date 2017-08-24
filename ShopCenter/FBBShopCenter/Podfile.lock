@@ -16,17 +16,22 @@ PODS:
     - AFNetworking/NSURLSession
   - FBBHttpClient (0.2.3):
     - AFNetworking
+  - FBBUserCenter (0.1.1):
+    - FBBHttpClient
+    - MGJRouter
   - MGJRouter (0.9.3)
 
 DEPENDENCIES:
   - FBBHttpClient
+  - FBBUserCenter
   - MGJRouter
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FBBHttpClient: bc6b315fc1b063dbfac4d8815ff59c346702b615
+  FBBUserCenter: 7f0ec1928b36fd3fc8dd839c15d5c6927a8f2dbd
   MGJRouter: f65821e2aeffc8f9e84b254c8f1c0dd80f048aa9
 
-PODFILE CHECKSUM: 13ab2574772764708b9ac55bdb0af790e352a74d
+PODFILE CHECKSUM: 8e4411220ef97eda73c8964d99d7306f957597ed
 
 COCOAPODS: 1.2.1.beta.1

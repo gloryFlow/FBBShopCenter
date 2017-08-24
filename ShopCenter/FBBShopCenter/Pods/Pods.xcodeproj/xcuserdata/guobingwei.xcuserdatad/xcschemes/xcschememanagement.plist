@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FBBUserCenter.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MGJRouter.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,6 +32,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4C75A9CB40F3FE1AD2515F0881F53219</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F36DDFF898D6981FFB41BE963A09CCF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>92E0356DDC153E0904C0B8AB57B02C8E</key>
 		<dict>
 			<key>primary</key>
@@ -37,12 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CE7ED3798AC0899BBFD0C9C2CC21981B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DBCE2D207660D892C98E84377A80CCC5</key>
+		<key>F144EDB83B80FAA91CC92FC7202F2E88</key>
 		<dict>
 			<key>primary</key>
 			<true/>
