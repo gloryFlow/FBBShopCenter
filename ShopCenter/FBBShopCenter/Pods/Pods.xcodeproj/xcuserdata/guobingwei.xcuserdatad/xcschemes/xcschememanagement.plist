@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FBBHttpClient.xcscheme</key>
+		<key>AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>FBBUserCenter.xcscheme</key>
+		<key>FBBHttpClient.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -19,17 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Masonry.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-FBBShopCenter.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5BB79A00FBD32C35884A2A2DB64E86BE</key>
+		<key>92E0356DDC153E0904C0B8AB57B02C8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6920AD5B94AA083DB7CF75755099DDF8</key>
+		<key>9E033EDB5EC0819481B0546434FA577B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>95FCB9C782CAB80F38A0DF7421B03DB3</key>
+		<key>CE7ED3798AC0899BBFD0C9C2CC21981B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96D609E9CB588D1E6D8141ECF23E907F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>BB32B43E6553C6F33B86F0198BC083FB</key>
+		<key>DBCE2D207660D892C98E84377A80CCC5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

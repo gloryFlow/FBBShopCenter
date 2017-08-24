@@ -7,7 +7,7 @@
 //
 
 #import "ShopCenterPageViewController.h"
-#import "HttpMobApi.h"
+#import <SDHttpClient/HttpMobApi.h>
 #import <MGJRouter/MGJRouter.h>
 
 @interface ShopCenterPageViewController ()

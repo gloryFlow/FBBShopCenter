@@ -10,6 +10,8 @@
 		473E6B284F25DEDAC9987016 /* libPods-FBBShopCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EFE03F1E50A788DACCC90EB /* libPods-FBBShopCenter.a */; };
 		92583A5C1F203EBE008ED9FD /* ShopCenterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 92583A5B1F203EBE008ED9FD /* ShopCenterModule.m */; };
 		92583A5F1F203EDE008ED9FD /* ShopCenterPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92583A5E1F203EDE008ED9FD /* ShopCenterPageViewController.m */; };
+		92DDE8961F31BB97002BA884 /* libMGJRouter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92802C251F31B3C40048DB21 /* libMGJRouter.a */; };
+		92DDE89E1F31BCB9002BA884 /* libFBBHttpClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92802C231F31B3C40048DB21 /* libFBBHttpClient.a */; };
 		92FC67371F1F33A3009861F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67361F1F33A3009861F1 /* main.m */; };
 		92FC673A1F1F33A3009861F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC67391F1F33A3009861F1 /* AppDelegate.m */; };
 		92FC673D1F1F33A3009861F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FC673C1F1F33A3009861F1 /* ViewController.m */; };
@@ -26,6 +28,10 @@
 		92583A5B1F203EBE008ED9FD /* ShopCenterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCenterModule.m; sourceTree = "<group>"; };
 		92583A5D1F203EDE008ED9FD /* ShopCenterPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCenterPageViewController.h; sourceTree = "<group>"; };
 		92583A5E1F203EDE008ED9FD /* ShopCenterPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCenterPageViewController.m; sourceTree = "<group>"; };
+		92802C231F31B3C40048DB21 /* libFBBHttpClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBBHttpClient.a; path = "../../../../../Library/Developer/Xcode/DerivedData/FBBShopCenter-bhvguebetnradidthaasbjudqtam/Build/Products/Release-iphoneos/FBBHttpClient/libFBBHttpClient.a"; sourceTree = "<group>"; };
+		92802C241F31B3C40048DB21 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "../../../../../Library/Developer/Xcode/DerivedData/FBBShopCenter-bhvguebetnradidthaasbjudqtam/Build/Products/Release-iphoneos/Masonry/libMasonry.a"; sourceTree = "<group>"; };
+		92802C251F31B3C40048DB21 /* libMGJRouter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMGJRouter.a; path = "../../../../../Library/Developer/Xcode/DerivedData/FBBShopCenter-bhvguebetnradidthaasbjudqtam/Build/Products/Release-iphoneos/MGJRouter/libMGJRouter.a"; sourceTree = "<group>"; };
+		92802C261F31B3C40048DB21 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../../../../Library/Developer/Xcode/DerivedData/FBBShopCenter-bhvguebetnradidthaasbjudqtam/Build/Products/Release-iphoneos/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
 		92FC67321F1F33A3009861F1 /* FBBShopCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBBShopCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FC67361F1F33A3009861F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92FC67381F1F33A3009861F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92DDE89E1F31BCB9002BA884 /* libFBBHttpClient.a in Frameworks */,
+				92DDE8961F31BB97002BA884 /* libMGJRouter.a in Frameworks */,
 				473E6B284F25DEDAC9987016 /* libPods-FBBShopCenter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,6 +61,10 @@
 		4056AB6A49D351BBDE4BB8AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92802C231F31B3C40048DB21 /* libFBBHttpClient.a */,
+				92802C241F31B3C40048DB21 /* libMasonry.a */,
+				92802C251F31B3C40048DB21 /* libMGJRouter.a */,
+				92802C261F31B3C40048DB21 /* libSDWebImage.a */,
 				5EFE03F1E50A788DACCC90EB /* libPods-FBBShopCenter.a */,
 			);
 			name = Frameworks;
@@ -315,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -357,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -368,11 +380,28 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C0168905046609A213C1F9F /* Pods-FBBShopCenter.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 64954NJXT3;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = FBBShopCenter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FBBHttpClient\"",
+					"-l\"MGJRouter\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FBBShopCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -382,11 +411,28 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36ECD21061FF965FBC7132B3 /* Pods-FBBShopCenter.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 64954NJXT3;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = FBBShopCenter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FBBHttpClient\"",
+					"-l\"MGJRouter\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"UIKit\"",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.FBBShopCenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

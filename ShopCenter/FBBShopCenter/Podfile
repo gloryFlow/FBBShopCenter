@@ -10,8 +10,6 @@ target 'FBBShopCenter' do
     # pod 'FBBUserCenter'
 
     # 第三方库
-    pod 'Masonry'
-    pod 'SDWebImage'
     pod 'MGJRouter'
 
 end

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "FBBShopCenter"
-  s.version      = "0.1.1"
+  s.version      = "0.1.3"
   s.summary      = "FBBShopCenter用户模块工程"
 
   # This description is used to generate tags and improve search results.
