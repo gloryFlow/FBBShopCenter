@@ -39,7 +39,7 @@
     _userDemoButton = [UIButton buttonWithType:UIButtonTypeCustom];
     _userDemoButton.frame = CGRectMake(100.0, 250.0, 200.0, 50.0);
     _userDemoButton.backgroundColor = [UIColor purpleColor];
-    [_userDemoButton setTitle:@"从商家模块跳转到用户模块" forState:UIControlStateNormal];
+    [_userDemoButton setTitle:@"从商家模块跳转到用户模块router跳转示例" forState:UIControlStateNormal];
     _userDemoButton.titleLabel.font = [UIFont systemFontOfSize:14];
     [_userDemoButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_userDemoButton addTarget:self action:@selector(userDemoButtonAction) forControlEvents:UIControlEventTouchUpInside];
